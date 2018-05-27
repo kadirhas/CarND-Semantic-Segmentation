@@ -2,15 +2,33 @@
 ### Results
 [//]: # (Image References)
 
-[image1]: ./runs/1527426696.3337421/umm_000066.png "Road Results"
-[image2]: ./runs/1527426696.3337421/umm_000066.png "Road Results"
-[image3]: ./runs/1527426696.3337421/umm_000066.png "Road Results"
+[image1]: ./runs/1527436541.057375/um_000000.png "Road Results"
+[image2]: ./runs/1527436541.057375/um_000058.png "Road Results"
+[image3]: ./runs/1527436541.057375/um_000040.png "Road Results"
+[image4]: ./runs/1527436541.057375/um_000028.png "Road Results"
+[image5]: ./runs/1527436541.057375/um_000042.png "Road Results"
+[image6]: ./runs/1527436541.057375/uu_000097.png "Road Results"
+[image7]: ./runs/1527436541.057375/uu_000098.png "Road Results"
+[image8]: ./runs/1527436541.057375/uu_000080.png "Road Results"
+
+#### Results of 6 epochs
 
 ![alt text][image1]
 
-![alt text][image1]
+![alt text][image2]
 
-![alt text][image1]
+![alt text][image3]
+
+![alt text][image4]
+
+![alt text][image5]
+
+![alt text][image6]
+
+![alt text][image7]
+
+![alt text][image8]
+
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
