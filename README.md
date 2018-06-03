@@ -2,14 +2,23 @@
 ### Results
 [//]: # (Image References)
 
-[image1]: ./runs/1527436541.057375/um_000000.png "Road Results"
-[image2]: ./runs/1527436541.057375/um_000058.png "Road Results"
-[image3]: ./runs/1527436541.057375/um_000040.png "Road Results"
-[image4]: ./runs/1527436541.057375/um_000028.png "Road Results"
-[image5]: ./runs/1527436541.057375/um_000042.png "Road Results"
-[image6]: ./runs/1527436541.057375/uu_000097.png "Road Results"
-[image7]: ./runs/1527436541.057375/uu_000098.png "Road Results"
-[image8]: ./runs/1527436541.057375/uu_000080.png "Road Results"
+[image1]: ./runs/epoch6/um_000000.png "Road Results"
+[image2]: ./runs/epoch6/um_000058.png "Road Results"
+[image3]: ./runs/epoch6/um_000040.png "Road Results"
+[image4]: ./runs/epoch6/um_000028.png "Road Results"
+[image5]: ./runs/epoch6/um_000042.png "Road Results"
+[image6]: ./runs/epoch6/uu_000097.png "Road Results"
+[image7]: ./runs/epoch6/uu_000098.png "Road Results"
+[image8]: ./runs/epoch6/uu_000080.png "Road Results"
+
+[image351]: ./runs/epoch35/um_000000.png "Road Results for 35 epochs"
+[image352]: ./runs/epoch35/um_000058.png "Road Results for 35 epochs"
+[image353]: ./runs/epoch35/um_000040.png "Road Results for 35 epochs"
+[image354]: ./runs/epoch35/um_000028.png "Road Results for 35 epochs"
+[image355]: ./runs/epoch35/um_000042.png "Road Results for 35 epochs"
+[image356]: ./runs/epoch35/uu_000097.png "Road Results for 35 epochs"
+[image357]: ./runs/epoch35/uu_000098.png "Road Results for 35 epochs"
+[image358]: ./runs/epoch35/uu_000080.png "Road Results for 35 epochs"
 
 #### Results of 6 epochs
 
@@ -28,6 +37,24 @@
 ![alt text][image7]
 
 ![alt text][image8]
+
+#### Results of 35 epochs
+
+![alt text][image351]
+
+![alt text][image352]
+
+![alt text][image353]
+
+![alt text][image354]
+
+![alt text][image355]
+
+![alt text][image356]
+
+![alt text][image357]
+
+![alt text][image358]
 
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
@@ -51,5 +78,5 @@ Run the following command to run the project:
 python main.py
 ```
 ##### Implementation details
-In this work, FCN-8 that is mentioned in this paper is implemented. [link placeholder]
+In this work, FCN-8 that is mentioned in [this paper](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) is implemented. 
 It consist of a modified VGG network and 1x1 convolutions and deconvolutions to maintain the spatial information of the result of the VGG network.
